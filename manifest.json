@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Latex Converter",
+  "version": "1.0",
+  "description": "Convert text to LaTeX format.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "48": "icon.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
