@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>LaTeXify Settings</title>
-  <!-- Add your CSS here -->
+    <title>LaTeX Extension</title>
+    <link rel="stylesheet" type="text/css" href="popup.css">
 </head>
 <body>
-  <h1>LaTeXify Extension</h1>
-  <p>Settings will go here.</p>
-  <!-- In your popup.html -->
-<button id="activateButton">Activate Crosshair</button>
-<button id="deactivateButton">Deactivate Crosshair</button>
+    <div id="popup-container">
+        <!-- Logo -->
+        <img src="icons/border-48.png" id="extension-logo" alt="Extension Logo">
+
+        <!-- Search Bar -->
+        <input type="text" id="latex-search-bar" placeholder="Enter LaTeX code...">
+        <button id="search-button">
+            <img src="icons/search-icon.png" alt="Search">
+        </button>
+
+        <!-- LaTeX Display Area -->
+        <div id="latex-display-area">
+            <!-- Placeholder content -->
+            LaTeX code will appear here
+        </div>
+
+        <!-- Copy to Clipboard Button -->
+        <button id="copy-to-clipboard">Copy to Clipboard </button>
+        <!--img src="copy-clipboard.png"-->
+
+    <script src="popup.js"></script>  
 </body>
 </html>
+
