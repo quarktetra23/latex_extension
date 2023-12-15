@@ -16,8 +16,8 @@
   border-radius: 4px;
   background-image: url('path_to_your_search_icon.png');
   background-position: 10px center;
+  background-size: 20px;
   background-repeat: no-repeat;
-  padding-left: 40px; 
 }
 
 
@@ -39,7 +39,6 @@
   background-image: url('path_to_your_copy_icon.png');
   background-position: right 10px center;
   background-repeat: no-repeat;
-  padding-right: 40px; 
 }
 
 #copy-to-clipboard:hover {
@@ -47,11 +46,13 @@
 }
 
 #search-button {
-  border: none;
+  border: black;
   background-color: transparent;
   cursor: pointer;
   padding: 0;
-  margin-left: -40px; /* Adjust as needed */
+  margin-left: -30px;
+  width: 20px;
+  height: 20px;
 }
 
 #search-button img {
