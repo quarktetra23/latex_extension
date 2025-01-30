@@ -15,5 +15,4 @@ The ultimate goal is to establish LaTeXify as a dependable and essential tool fo
 **Development Phase**\
 The extension is currently under active development. Focus areas include refining the content selection mechanism, optimizing the conversion algorithm, and enhancing the overall user interface. The objective is to create a solution that is both effective in functionality and simple in its usage.
 
-Thank you for exploring LaTeXify. Stay connected for upcoming updates and advancements as the project progresses towards its public release. Your interest and support are highly valued.
-
+Thank you for exploring LaTeXify. 
